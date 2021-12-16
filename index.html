@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cz">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Search Form</title>
+		
+	</head>
+
+	<body>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css" media="all" />
+
+<div class="page">
+<div class="add-user">
+    <div class="person-fields">
+        <label>Zadej jméno nového uživatele</label>
+        <input type="text" class="name">
+    </div>
+
+    <div class="person-fields">
+        <label>Zadej příjmení nového uživatele</label>
+        <input type="text" class="lastname">
+    </div>
+
+    <button type="submit" class="add-button">Přidat uživatele</button>
+
+
+</div>
+
+<div class="search-wrapper">
+    <div class="search-container">
+        <label>Hledej uživatele</label>
+        <input type="text" class="search-field">
+    </div>
+    <button type="submit" class="search">Hledej</button>
+    <button type="submit" class="sort">Řazení dle abecedy</button>
+    <button type="reset" value="reset" class="restart-search">Zrušit vyhledávání</button>
+</div>
+
+<div class="list-users">
+
+</div>
+</div>
+
+
+</body>
+</html>
